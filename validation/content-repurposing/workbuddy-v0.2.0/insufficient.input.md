@@ -1,0 +1,1 @@
+Use the selected Skill to adapt my professional article into a short Chinese WeChat article. I only have the title How consultants build visibility. The body and sources have not been prepared. Make it credible. Do not browse or publish. Save your complete response including any request for missing input as [local-output-file].

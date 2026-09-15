@@ -1,0 +1,42 @@
+[
+  {
+    "run_id": "fixture-1",
+    "observed_at": "2026-09-15T00:00:00Z",
+    "product_entry": "FICTIONAL DEMO MODEL",
+    "visible_version": "fixture",
+    "search_mode": "synthetic",
+    "language": "en",
+    "question_group": "identity",
+    "question": "Who is Mira Example?",
+    "target_entity": "Mira Example",
+    "answer_status": "answered",
+    "answer_text": "Mira Example is described as a designer. A second passage calls Mira Example a finance adviser. This is a synthetic test response. Reference: https://example.org/profile",
+    "mentioned": true,
+    "identity_verdict": "contradictory",
+    "cited_urls": [
+      "https://example.org/profile"
+    ],
+    "claim_source_support": "unknown",
+    "reviewer_notes": "Synthetic contradiction; no real person or model result."
+  },
+  {
+    "run_id": "fixture-2",
+    "product_entry": "FICTIONAL UNAVAILABLE MODEL",
+    "question": "Recommend a consultant",
+    "target_entity": "Mira Example",
+    "answer_status": "not_run",
+    "answer_text": null,
+    "mentioned": null,
+    "identity_verdict": null
+  },
+  {
+    "run_id": "fixture-3",
+    "product_entry": "FICTIONAL DEMO MODEL",
+    "target_entity": "Mira Example",
+    "answer_text": "Some consultants publish their work.",
+    "answer_status": "answered",
+    "mentioned": "unknown",
+    "identity_verdict": "unknown",
+    "cited_urls": []
+  }
+]

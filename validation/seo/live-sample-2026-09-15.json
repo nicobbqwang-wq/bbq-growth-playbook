@@ -1,0 +1,1591 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-15T03:24:43.187354+00:00",
+  "mode": "bounded_http_html_sample",
+  "summary": {
+    "seed_pages": 4,
+    "requests": 14,
+    "checks": {
+      "pass": 72,
+      "review": 0,
+      "fail": 0,
+      "unknown": 4
+    }
+  },
+  "sitemap": {
+    "complete": true,
+    "url_count": 4114,
+    "documents": [
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemap.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemap.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "ac0e74b32e7154a34e2fb90da46dbb104ae642d64f897e9757aeedcbf0176e8a"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/en.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/en.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "55bb342c08540f810f5b3e5abc31d53dc2da6d5850cc392e109b9728d2153534"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/de.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/de.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "675c50174edeadf7cdfc1c1be248abd8547043adf230aafcaeac919b21a9c640"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/fr.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/fr.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "f15957633a806dc5f1e0ab666b2eb96c5a1bc2fb26f8560c7dbe5d72e2a65718"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/it.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/it.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "a810c3e0c712dfd7669a168c7bfbc2fdeb18126ebb6b9d8c994e73195f7199f7"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/tr.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/tr.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "e0d34bbfc8b523fd29f2d12d4aa2e55346a5a3fce107f47cd7bb44beb7675218"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/pl.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/pl.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "de1127960ee48845e321db6c08f4410d1c9ae8c7d71e37d147ef10b22e437655"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/hu.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/hu.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "4b8c1754a67fa21fbedeaa80d1725107c4eb17af466c06629a94765138bb04f1"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/fi.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/fi.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "5a31b32f7232c79d003758fbb0d576a4a4c9b510fa8e35e59ee3b4fb91c1b5ff"
+      },
+      {
+        "requested_url": "https://bbqgrowthlab.com/sitemaps/zh-cn.xml",
+        "status": 200,
+        "final_url": "https://bbqgrowthlab.com/sitemaps/zh-cn.xml",
+        "error": null,
+        "content_type": "application/xml",
+        "sha256": "1afed5365100f420bbc566f15785876ccd3e78c5aae0df5a830aa9f28da57117"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://bbqgrowthlab.com/zh-cn/services/",
+      "checks": [
+        {
+          "check": "http_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "df9b7f2d152d6c97834125d5184d08777aa1e74555e189c2c0a833e46e19052a",
+            "html_lang": "zh-CN",
+            "canonical": [
+              "https://bbqgrowthlab.com/zh-cn/services/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "canonical_count",
+          "status": "pass",
+          "evidence": [
+            "https://bbqgrowthlab.com/zh-cn/services/"
+          ]
+        },
+        {
+          "check": "canonical_target_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "df9b7f2d152d6c97834125d5184d08777aa1e74555e189c2c0a833e46e19052a",
+            "html_lang": "zh-CN",
+            "canonical": [
+              "https://bbqgrowthlab.com/zh-cn/services/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "canonical_language",
+          "status": "pass",
+          "evidence": {
+            "source_lang": "zh-CN",
+            "target_lang": "zh-CN",
+            "url": "https://bbqgrowthlab.com/zh-cn/services/"
+          }
+        },
+        {
+          "check": "hreflang_declarations",
+          "status": "pass",
+          "evidence": [
+            "zh-cn",
+            "en",
+            "x-default"
+          ]
+        },
+        {
+          "check": "hreflang_self_reference",
+          "status": "pass",
+          "evidence": {
+            "page": "https://bbqgrowthlab.com/zh-cn/services/",
+            "note": "HTML declarations only; HTTP headers or sitemap alternatives may supply annotations"
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "zh-cn",
+              "url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "df9b7f2d152d6c97834125d5184d08777aa1e74555e189c2c0a833e46e19052a",
+              "html_lang": "zh-CN",
+              "canonical": [
+                "https://bbqgrowthlab.com/zh-cn/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "zh-cn",
+            "target_html_lang": "zh-CN",
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "en",
+              "url": "https://bbqgrowthlab.com/en/services/",
+              "raw_href": "https://bbqgrowthlab.com/en/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "en",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "x-default",
+              "url": "https://bbqgrowthlab.com/en/services/",
+              "raw_href": "https://bbqgrowthlab.com/en/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "unknown",
+          "evidence": {
+            "declared": "x-default",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://bbqgrowthlab.com/en/services/",
+      "checks": [
+        {
+          "check": "http_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/en/services/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/en/services/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+            "html_lang": "en",
+            "canonical": [
+              "https://bbqgrowthlab.com/en/services/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "url": "https://bbqgrowthlab.com/en/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "canonical_count",
+          "status": "pass",
+          "evidence": [
+            "https://bbqgrowthlab.com/en/services/"
+          ]
+        },
+        {
+          "check": "canonical_target_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/en/services/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/en/services/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+            "html_lang": "en",
+            "canonical": [
+              "https://bbqgrowthlab.com/en/services/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "canonical_language",
+          "status": "pass",
+          "evidence": {
+            "source_lang": "en",
+            "target_lang": "en",
+            "url": "https://bbqgrowthlab.com/en/services/"
+          }
+        },
+        {
+          "check": "hreflang_declarations",
+          "status": "pass",
+          "evidence": [
+            "zh-cn",
+            "en",
+            "x-default"
+          ]
+        },
+        {
+          "check": "hreflang_self_reference",
+          "status": "pass",
+          "evidence": {
+            "page": "https://bbqgrowthlab.com/en/services/",
+            "note": "HTML declarations only; HTTP headers or sitemap alternatives may supply annotations"
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "zh-cn",
+              "url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/zh-cn/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "df9b7f2d152d6c97834125d5184d08777aa1e74555e189c2c0a833e46e19052a",
+              "html_lang": "zh-CN",
+              "canonical": [
+                "https://bbqgrowthlab.com/zh-cn/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "zh-cn",
+            "target_html_lang": "zh-CN",
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "en",
+              "url": "https://bbqgrowthlab.com/en/services/",
+              "raw_href": "https://bbqgrowthlab.com/en/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "en",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "x-default",
+              "url": "https://bbqgrowthlab.com/en/services/",
+              "raw_href": "https://bbqgrowthlab.com/en/services/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/services/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/services/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "22ee0ba5d8faa7edd47983569d771002e5faa54fe158d3d47f8a1b4e009f6f48",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/services/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/services/",
+                  "raw_href": "https://bbqgrowthlab.com/en/services/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "unknown",
+          "evidence": {
+            "declared": "x-default",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/services/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/services/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/services/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/services/",
+                "raw_href": "https://bbqgrowthlab.com/en/services/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/services/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://bbqgrowthlab.com/zh-cn/about/",
+      "checks": [
+        {
+          "check": "http_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "c25ceab3cf01113ca977d0b3112c63f5d8fcc7243cc1a298a7928229a9dd039e",
+            "html_lang": "zh-CN",
+            "canonical": [
+              "https://bbqgrowthlab.com/zh-cn/about/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "canonical_count",
+          "status": "pass",
+          "evidence": [
+            "https://bbqgrowthlab.com/zh-cn/about/"
+          ]
+        },
+        {
+          "check": "canonical_target_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "c25ceab3cf01113ca977d0b3112c63f5d8fcc7243cc1a298a7928229a9dd039e",
+            "html_lang": "zh-CN",
+            "canonical": [
+              "https://bbqgrowthlab.com/zh-cn/about/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "canonical_language",
+          "status": "pass",
+          "evidence": {
+            "source_lang": "zh-CN",
+            "target_lang": "zh-CN",
+            "url": "https://bbqgrowthlab.com/zh-cn/about/"
+          }
+        },
+        {
+          "check": "hreflang_declarations",
+          "status": "pass",
+          "evidence": [
+            "zh-cn",
+            "en",
+            "x-default"
+          ]
+        },
+        {
+          "check": "hreflang_self_reference",
+          "status": "pass",
+          "evidence": {
+            "page": "https://bbqgrowthlab.com/zh-cn/about/",
+            "note": "HTML declarations only; HTTP headers or sitemap alternatives may supply annotations"
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "zh-cn",
+              "url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "c25ceab3cf01113ca977d0b3112c63f5d8fcc7243cc1a298a7928229a9dd039e",
+              "html_lang": "zh-CN",
+              "canonical": [
+                "https://bbqgrowthlab.com/zh-cn/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "zh-cn",
+            "target_html_lang": "zh-CN",
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "en",
+              "url": "https://bbqgrowthlab.com/en/about/",
+              "raw_href": "https://bbqgrowthlab.com/en/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "en",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "x-default",
+              "url": "https://bbqgrowthlab.com/en/about/",
+              "raw_href": "https://bbqgrowthlab.com/en/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "unknown",
+          "evidence": {
+            "declared": "x-default",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://bbqgrowthlab.com/en/about/",
+      "checks": [
+        {
+          "check": "http_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/en/about/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/en/about/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+            "html_lang": "en",
+            "canonical": [
+              "https://bbqgrowthlab.com/en/about/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "url": "https://bbqgrowthlab.com/en/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "canonical_count",
+          "status": "pass",
+          "evidence": [
+            "https://bbqgrowthlab.com/en/about/"
+          ]
+        },
+        {
+          "check": "canonical_target_status",
+          "status": "pass",
+          "evidence": {
+            "requested_url": "https://bbqgrowthlab.com/en/about/",
+            "status": 200,
+            "final_url": "https://bbqgrowthlab.com/en/about/",
+            "error": null,
+            "content_type": "text/html",
+            "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+            "html_lang": "en",
+            "canonical": [
+              "https://bbqgrowthlab.com/en/about/"
+            ],
+            "hreflang": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ],
+            "base_element": false
+          }
+        },
+        {
+          "check": "canonical_language",
+          "status": "pass",
+          "evidence": {
+            "source_lang": "en",
+            "target_lang": "en",
+            "url": "https://bbqgrowthlab.com/en/about/"
+          }
+        },
+        {
+          "check": "hreflang_declarations",
+          "status": "pass",
+          "evidence": [
+            "zh-cn",
+            "en",
+            "x-default"
+          ]
+        },
+        {
+          "check": "hreflang_self_reference",
+          "status": "pass",
+          "evidence": {
+            "page": "https://bbqgrowthlab.com/en/about/",
+            "note": "HTML declarations only; HTTP headers or sitemap alternatives may supply annotations"
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "zh-cn",
+              "url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/zh-cn/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "c25ceab3cf01113ca977d0b3112c63f5d8fcc7243cc1a298a7928229a9dd039e",
+              "html_lang": "zh-CN",
+              "canonical": [
+                "https://bbqgrowthlab.com/zh-cn/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "zh-cn",
+            "target_html_lang": "zh-CN",
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/zh-cn/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "en",
+              "url": "https://bbqgrowthlab.com/en/about/",
+              "raw_href": "https://bbqgrowthlab.com/en/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "pass",
+          "evidence": {
+            "declared": "en",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        },
+        {
+          "check": "hreflang_target_status",
+          "status": "pass",
+          "evidence": {
+            "alternate": {
+              "lang": "x-default",
+              "url": "https://bbqgrowthlab.com/en/about/",
+              "raw_href": "https://bbqgrowthlab.com/en/about/"
+            },
+            "target": {
+              "requested_url": "https://bbqgrowthlab.com/en/about/",
+              "status": 200,
+              "final_url": "https://bbqgrowthlab.com/en/about/",
+              "error": null,
+              "content_type": "text/html",
+              "sha256": "079b432bb3bc981db0bc2ca7e49726a180cd9a026ce0c5f4d2417d2b59919743",
+              "html_lang": "en",
+              "canonical": [
+                "https://bbqgrowthlab.com/en/about/"
+              ],
+              "hreflang": [
+                {
+                  "lang": "zh-cn",
+                  "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                  "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+                },
+                {
+                  "lang": "en",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                },
+                {
+                  "lang": "x-default",
+                  "url": "https://bbqgrowthlab.com/en/about/",
+                  "raw_href": "https://bbqgrowthlab.com/en/about/"
+                }
+              ],
+              "base_element": false
+            }
+          }
+        },
+        {
+          "check": "hreflang_target_language",
+          "status": "unknown",
+          "evidence": {
+            "declared": "x-default",
+            "target_html_lang": "en",
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "note": "HTML lang is a declaration, not detected body language"
+          }
+        },
+        {
+          "check": "hreflang_return_link",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "expected_return_url": "https://bbqgrowthlab.com/en/about/",
+            "target_alternates": [
+              {
+                "lang": "zh-cn",
+                "url": "https://bbqgrowthlab.com/zh-cn/about/",
+                "raw_href": "https://bbqgrowthlab.com/zh-cn/about/"
+              },
+              {
+                "lang": "en",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              },
+              {
+                "lang": "x-default",
+                "url": "https://bbqgrowthlab.com/en/about/",
+                "raw_href": "https://bbqgrowthlab.com/en/about/"
+              }
+            ]
+          }
+        },
+        {
+          "check": "hreflang_sitemap_membership",
+          "status": "pass",
+          "evidence": {
+            "target_url": "https://bbqgrowthlab.com/en/about/",
+            "found": true,
+            "sitemap_complete": true
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Sample only; not a complete website audit or indexing/ranking proof",
+    "HTML head declarations only; HTTP Link and XML hreflang extensions not evaluated",
+    "HTML lang and hreflang are declared labels; body language, translation quality and equivalent meaning require review",
+    "Canonical alternatives, regional fallbacks and absent sitemap entries may be intentional",
+    "No JavaScript rendering, robots rules, noindex, or Search Console data checked",
+    "Network failures, request limits and external origins remain unknown; redirects stay within allowed origins"
+  ]
+}

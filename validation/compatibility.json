@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "as_of": "2026-09-15",
+  "human_review": "pending",
+  "rows": [
+    {
+      "resource": "bbq-content-repurposing",
+      "environment": "Codex CLI 0.154.0-alpha.6.2",
+      "mode": "explicit repository SKILL.md read",
+      "model": "unknown: default not exposed in captured events",
+      "cases": {
+        "normal": "pass_agent_review",
+        "insufficient": "pass_agent_review",
+        "attribution": "pass_agent_review"
+      },
+      "auto_discovery": "not_tested",
+      "evidence": "validation/content-repurposing/REVIEW.md"
+    },
+    {
+      "resource": "bbq-content-repurposing",
+      "environment": "WorkBuddy AI international desktop 5.5.2",
+      "model_selector": "Auto",
+      "underlying_model": "unknown",
+      "mode": "installed Skill selected via slash picker",
+      "first_pass": {
+        "normal": "fail_source_fidelity",
+        "insufficient": "pass",
+        "attribution": "fail_fictional_label_and_unsupported_claims"
+      },
+      "review_assisted": {
+        "normal": "pass_after_explicit_feedback",
+        "insufficient": "pass_without_revision",
+        "attribution": "pass_after_explicit_feedback"
+      },
+      "status": "review_assisted_only",
+      "evidence": "validation/content-repurposing/workbuddy-v0.2.0/run-evidence.json"
+    },
+    {
+      "resource": "bbq-geo-observer",
+      "environment": "Python 3.9.6",
+      "mode": "offline script",
+      "fixture_tests_passed": 6,
+      "agent_invocation": "not_tested",
+      "live_model_calls": false,
+      "real_export_local_validation": {
+        "rows": 60,
+        "raw_and_answer_preserved": true,
+        "public_raw_answers": false
+      }
+    },
+    {
+      "resource": "bbq-multilingual-seo-check",
+      "environment": "Python 3.9.6",
+      "mode": "HTTP script",
+      "fixture_tests_passed": 5,
+      "live_seed_pages": 4,
+      "agent_invocation": "not_tested",
+      "evidence": "validation/seo/live-sample-2026-09-15.json"
+    }
+  ]
+}

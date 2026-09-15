@@ -1,43 +1,44 @@
 # BBQ Growth Playbook
 
-Practical guides, templates and an experimental Agent Skill for personal brand visibility, SEO, AI search and content distribution.
+Practical resources for making professional expertise understandable and useful: content adaptation, manual AI-answer observations, and small multilingual SEO checks.
 
-By [BBQ](https://github.com/nicobbqwang-wq), author of [BBQ Growth Lab](https://bbqgrowthlab.com/en/). [简体中文](README.zh-CN.md)
+By [BBQ](https://github.com/nicobbqwang-wq) · [BBQ Growth Lab](https://bbqgrowthlab.com/en/) · [简体中文](README.zh-CN.md)
 
 ## Start with one task
 
-| What you want to do | Start here | What you get |
+| Task | Start here | Result |
 | --- | --- | --- |
-| Turn an article into a useful LinkedIn post | [Content adaptation brief](skills/bbq-content-repurposing/assets/brief-template.md) | A clear input sheet for your source, audience, channel and language |
-| Use an agent to adapt the article | [Content repurposing Skill](skills/bbq-content-repurposing/SKILL.md) | Reusable instructions that preserve facts, attribution and limits |
-| See the expected output | [Example input](examples/content-repurposing-input.md) and [example output](examples/content-repurposing-output.md) | An illustrative post and its fact-check record |
-| Check how AI answers describe a person | [Personal brand visibility guide](guides/personal-ip-ai-visibility.md) | A repeatable observation workflow and a blank CSV |
-| Prepare consistent public author facts | [Personal brand fact sheet](templates/personal-ip-fact-sheet.en.md) | Claims, evidence links, scope and review status |
-| Find useful SEO and workflow references | [Curated resources](resources/README.md) | Official sources grouped by the task they support |
+| Adapt one article without losing its evidence | [Install and invoke](docs/installation.md) · [Content Skill](skills/bbq-content-repurposing/SKILL.md) | One requested draft, source attribution and editorial checks |
+| Organize exported AI answers | [GEO assistant](docs/geo-observer.md) | Original answers, mention candidates, supplied identity/source reviews and unknowns |
+| Check a few language variants | [SEO checker](skills/bbq-multilingual-seo-check/references/usage.md) | HTTP, canonical, hreflang, return-link and sitemap evidence |
+| Establish consistent public author facts | [Fact sheet](templates/personal-ip-fact-sheet.en.md) | Claims, source links, scope and review status |
+| Understand personal-brand AI visibility | [Guide](guides/personal-ip-ai-visibility.md) | Questions and an observation workflow |
+| Find supporting references | [Curated resources](resources/README.md) | Official sources grouped by reader task |
 
-## Try content repurposing
+## What is verified in v0.2.0?
 
-1. Read [the example](examples/content-repurposing-output.md).
-2. Complete the [brief](skills/bbq-content-repurposing/assets/brief-template.md) using an article you may reuse.
-3. Ask your agent to read [SKILL.md](skills/bbq-content-repurposing/SKILL.md), then provide the source and brief.
-4. Compare the draft with your source before publishing. The workflow prepares content; account access and publication are separate actions.
+| Resource / environment | Actual verification | Remaining limits |
+| --- | --- | --- |
+| Content / Codex CLI 0.154.0-alpha.6.2 | Three recorded explicit Skill-file reads and runs: normal input, insufficient material, attribution/factual limits | Agent review; human sign-off and automatic discovery pending; no URL-fetch/publication test |
+| Content / WorkBuddy AI desktop 5.5.2 (Auto) | Three installed-Skill cases run; one passed first response, two passed after explicit review feedback | Review-assisted only; initial failures retained; mainland web product untested |
+| GEO / Python 3.9.6 | Offline synthetic fixtures and six behavior tests | No automatic model integration; real sampling belongs to a separate collection step |
+| SEO / Python 3.9.6 | Five local HTTP fixture tests and four live seed pages | Bounded HTML sample, not a full audit or proof of indexing |
+| GEO and SEO / Codex or WorkBuddy Skill invocation | Package format checked | Agent invocation not separately tested; scripts run directly in Python |
 
-For a Codex project, the skill directory can be placed under `.agents/skills/`; for user-level discovery use `~/.agents/skills/`. Check for an existing directory before copying. Consult the [current Codex skill documentation](https://learn.chatgpt.com/docs/build-skills) for your product's installation and discovery flow.
+See [behavioral inputs/outputs](validation/content-repurposing/REVIEW.md), [compatibility data](validation/compatibility.json), and [SEO live evidence](validation/seo/README.md). Synthetic examples are demonstrations, not customer results. Human review forms are intentionally unfilled.
 
-## What is verified?
+A file-read test exposed an overbroad response to a title-only adaptation request. v0.2.0 narrows that behavior, reruns the three scenarios, and adds installation, evidence and two bounded helpers. Each release provides individual Skill ZIPs and source code.
 
-The first release includes guides, blank templates, an instruction-based Skill and author-written examples. The Skill's file structure has passed format validation. End-to-end behavior in Codex and WorkBuddy has not been tested; WorkBuddy adaptation remains pending. Examples are demonstrations, not customer results or proof of platform compatibility.
+## Smallest useful content example
 
-Published resources, search discovery, AI mentions, supported citations and qualified inquiries are different outcomes. Record them separately. This project does not promise inclusion in any model's training data or answers.
+Ask Codex to read `skills/bbq-content-repurposing/SKILL.md` and use `examples/content-repurposing-input.md`. Request one English LinkedIn draft and factual checks. For your own material, supply the body, intended reader, channel, language and reader action. A title alone is insufficient for faithful adaptation.
 
-## Read the complete articles
+## Boundaries
 
-- [A content repurposing map](https://bbqgrowthlab.com/en/articles/content-repurposing-map-seo-llm-visibility/)
-- [Why AI optimization advice does not transfer unchanged between platforms](https://bbqgrowthlab.com/en/articles/ai-optimization-advice-not-portable-cross-platform/)
-- [AI-assisted SEO, GEO and advertising workflows](https://bbqgrowthlab.com/en/articles/ai-assisted-seo-geo-ppc-workflow-field-notes/)
+Published resources, search discovery, AI mentions, supported citations and qualified inquiries are different outcomes. This repository does not promise rankings, revenue, model inclusion, or automatic posting. Scripts use the Python standard library; read the relevant guide before running on your data. No private samples or account credentials are needed for the bundled examples.
 
-## Follow and contribute
+## Learn more and contribute
 
-[BBQ Growth Lab](https://bbqgrowthlab.com/en/) · [LinkedIn](https://www.linkedin.com/in/%E5%BF%85%E5%BC%BA-%E7%8E%8B-9aa156421/)
+[Content repurposing article](https://bbqgrowthlab.com/en/articles/content-repurposing-map-seo-llm-visibility/) · [Cross-platform AI advice](https://bbqgrowthlab.com/en/articles/ai-optimization-advice-not-portable-cross-platform/) · [AI-assisted workflows](https://bbqgrowthlab.com/en/articles/ai-assisted-seo-geo-ppc-workflow-field-notes/)
 
-For corrections and useful additions, see [CONTRIBUTING.md](CONTRIBUTING.md). Original repository files are available under the [MIT License](LICENSE); linked third-party projects retain their own licenses.
+[Contributing](CONTRIBUTING.md) · [MIT License](LICENSE). Linked third-party material retains its own license.

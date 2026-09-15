@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-15",
+  "product": "WorkBuddy AI international desktop",
+  "visible_version": "5.5.2",
+  "model_selector": "Auto",
+  "underlying_model": "unknown",
+  "invocation": "Installed imported bbq-content-repurposing Skill selected from slash picker in fresh tasks",
+  "installation_evidence": "UI: Skill imported successfully; skill chip bbq-content-repurposing present; outputs saved by application",
+  "skill_sha256": "1ce526dc0470922acd23da568472c15abd86d38fe06805bedce618ffb70708ec",
+  "first_pass": {
+    "normal": "failed_source_fidelity",
+    "insufficient": "pass_missing_source_boundary",
+    "attribution": "failed_fixture_label_in_publishable_draft"
+  },
+  "reviewer": "task maintainer agent; not human",
+  "human_review": "pending",
+  "review_assisted": {
+    "normal": "pass_agent_review_after_explicit_feedback",
+    "insufficient": "pass_first_response",
+    "attribution": "pass_agent_review_after_explicit_feedback"
+  },
+  "scope": "Synthetic source tests only. Not a claim of unattended first-pass reliability.",
+  "evidence_redactions": "Local output destinations replaced with [local-output-file] in public transcripts; raw local copies retained."
+}

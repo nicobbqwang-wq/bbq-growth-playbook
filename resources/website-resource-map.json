@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "version": "v0.2.0",
+  "resources": [
+    {
+      "id": "bbq-content-repurposing",
+      "version": "v0.2.0",
+      "title": {
+        "zh-cn": "内容分发 Skill",
+        "en": "Content repurposing Skill"
+      },
+      "description": {
+        "zh-cn": "将专业文章改成指定渠道草稿，保留出处与事实范围。",
+        "en": "Adapt an existing article with attribution and factual scope."
+      },
+      "usageUrl": {
+        "zh-cn": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/installation.zh-CN.md",
+        "en": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/installation.md"
+      },
+      "skillUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-content-repurposing/SKILL.md",
+      "downloadUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.2.0/bbq-content-repurposing-v0.2.0.zip",
+      "releaseUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/tag/v0.2.0",
+      "status": {
+        "zh-cn": "Codex三场景通过；WorkBuddy AI三场景可运行，其中两项需明确复核后修订；真人签核待完成。",
+        "en": "Three Codex cases passed. WorkBuddy AI required explicit review and revision in two of three cases; human sign-off pending."
+      },
+      "compatibilityUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/validation/compatibility.json",
+      "websiteTargets": [
+        "https://bbqgrowthlab.com/zh-cn/articles/content-repurposing-map-seo-llm-visibility/",
+        "https://bbqgrowthlab.com/zh-cn/articles/ai-assisted-seo-geo-ppc-workflow-field-notes/",
+        "https://bbqgrowthlab.com/en/articles/content-repurposing-map-seo-llm-visibility/",
+        "https://bbqgrowthlab.com/en/articles/ai-assisted-seo-geo-ppc-workflow-field-notes/"
+      ]
+    },
+    {
+      "id": "bbq-geo-observer",
+      "version": "v0.2.0",
+      "title": {
+        "zh-cn": "GEO 人工观察助手",
+        "en": "Manual GEO observation assistant"
+      },
+      "description": {
+        "zh-cn": "整理人工导出的回答，分开记录提及、身份、引用支持与 unknown。",
+        "en": "Organize exported answers, mention, identity, citation support and unknowns."
+      },
+      "usageUrl": {
+        "zh-cn": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/geo-observer.zh-CN.md",
+        "en": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/geo-observer.md"
+      },
+      "skillUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-geo-observer/SKILL.md",
+      "downloadUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.2.0/bbq-geo-observer-v0.2.0.zip",
+      "releaseUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/tag/v0.2.0",
+      "status": {
+        "zh-cn": "Python 夹具已验证；没有自动接通模型；代理端调用未测。",
+        "en": "Python fixtures tested; no automatic model integration; agent invocation untested."
+      },
+      "compatibilityUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/validation/compatibility.json",
+      "websiteTargets": [
+        "https://bbqgrowthlab.com/zh-cn/articles/ai-optimization-advice-not-portable-cross-platform/",
+        "https://bbqgrowthlab.com/en/articles/ai-optimization-advice-not-portable-cross-platform/"
+      ]
+    },
+    {
+      "id": "bbq-multilingual-seo-check",
+      "version": "v0.2.0",
+      "title": {
+        "zh-cn": "多语言 SEO 检查助手",
+        "en": "Multilingual SEO sample checker"
+      },
+      "description": {
+        "zh-cn": "检查状态码、canonical、hreflang、语言目标和 sitemap，保留证据。",
+        "en": "Check status, canonical, hreflang, language declarations and sitemap evidence."
+      },
+      "usageUrl": {
+        "zh-cn": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-multilingual-seo-check/references/usage.md",
+        "en": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-multilingual-seo-check/references/usage.md"
+      },
+      "skillUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-multilingual-seo-check/SKILL.md",
+      "downloadUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.2.0/bbq-multilingual-seo-check-v0.2.0.zip",
+      "releaseUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/tag/v0.2.0",
+      "status": {
+        "zh-cn": "Python 夹具与官网四页样本已验证；不等于全站审计。",
+        "en": "Python fixtures and four live seed pages tested; not a full audit."
+      },
+      "compatibilityUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/validation/compatibility.json",
+      "websiteTargets": [
+        "https://bbqgrowthlab.com/zh-cn/articles/international-seo-hreflang-guide/",
+        "https://bbqgrowthlab.com/zh-cn/articles/hreflang-generator-sitemap-return-tag-bidirectional-guide/",
+        "https://bbqgrowthlab.com/en/articles/international-seo-hreflang-guide/",
+        "https://bbqgrowthlab.com/en/articles/hreflang-generator-sitemap-return-tag-bidirectional-guide/"
+      ]
+    }
+  ]
+}

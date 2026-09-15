@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-15",
+  "codex_cli": "0.154.0-alpha.6.2",
+  "model": "unknown: default not exposed in captured events",
+  "invocation": "explicit repository SKILL.md read in fresh ephemeral run",
+  "skill_sha256": "1ce526dc0470922acd23da568472c15abd86d38fe06805bedce618ffb70708ec",
+  "cases": [
+    {
+      "case": "normal",
+      "skill_read_commands": [
+        {
+          "command": "/bin/zsh -lc 'cat skills/bbq-content-repurposing/SKILL.md'",
+          "exit_code": 0
+        }
+      ],
+      "turn_completed": true,
+      "events_sha256": "834dba23e2b19423f47c1eeeaa1d6e47aa0737e77a931b8a555df0152c64298a",
+      "reviewer_type": "agent",
+      "verdict": "pass",
+      "human_review": "pending"
+    },
+    {
+      "case": "attribution",
+      "skill_read_commands": [
+        {
+          "command": "/bin/zsh -lc 'cat skills/bbq-content-repurposing/SKILL.md'",
+          "exit_code": 0
+        }
+      ],
+      "turn_completed": true,
+      "events_sha256": "2645513694aa286d001365838c9f6eb5dc39432edb4eeef7840353a9e05eee1a",
+      "reviewer_type": "agent",
+      "verdict": "pass",
+      "human_review": "pending"
+    },
+    {
+      "case": "insufficient",
+      "skill_read_commands": [
+        {
+          "command": "/bin/zsh -lc 'cat skills/bbq-content-repurposing/SKILL.md'",
+          "exit_code": 0
+        }
+      ],
+      "turn_completed": true,
+      "events_sha256": "27db41f73a4b9f0180844414d0856a7d7d985c70e41f3c6d6667230789b2f797",
+      "reviewer_type": "agent",
+      "verdict": "pass",
+      "human_review": "pending"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "dataset_kind": "fixture",
+  "generated_at": "2026-09-15T03:36:55.691285+00:00",
+  "mode": "offline_manual_export",
+  "summary": {
+    "total_rows": 3,
+    "mention_review_counts": {
+      "true": 1,
+      "unknown": 2
+    },
+    "rates": "unknown",
+    "reason": "No comparable sampling denominator validated"
+  },
+  "observations": [
+    {
+      "run_id": "fixture-1",
+      "observed_at": "2026-09-15T00:00:00Z",
+      "product_entry": "FICTIONAL DEMO MODEL",
+      "visible_version": "fixture",
+      "search_mode": "synthetic",
+      "search_triggered": "unknown",
+      "target_entity_correctly_identified": "unknown",
+      "language": "en",
+      "region": "unknown",
+      "session_conditions": "unknown",
+      "question_group": "identity",
+      "question": "Who is Mira Example?",
+      "target_entity": "Mira Example",
+      "answer_status": "answered",
+      "answer_text": "Mira Example is described as a designer. A second passage calls Mira Example a finance adviser. This is a synthetic test response. Reference: https://example.org/profile",
+      "answer_sha256": "9e4d7f61a369efffd0a0af57c36c2176718f8b3f50e1bcc69ece44274e385353",
+      "mentioned": true,
+      "literal_mention_candidate": true,
+      "identity_verdict": "contradictory",
+      "identity_basis": "supplied review; not independently verified",
+      "cited_urls": [
+        "https://example.org/profile"
+      ],
+      "claim_source_support": "unknown",
+      "citation_basis": "supplied review; no source fetch performed",
+      "warnings": [],
+      "raw": {
+        "run_id": "fixture-1",
+        "observed_at": "2026-09-15T00:00:00Z",
+        "product_entry": "FICTIONAL DEMO MODEL",
+        "visible_version": "fixture",
+        "search_mode": "synthetic",
+        "language": "en",
+        "question_group": "identity",
+        "question": "Who is Mira Example?",
+        "target_entity": "Mira Example",
+        "answer_status": "answered",
+        "answer_text": "Mira Example is described as a designer. A second passage calls Mira Example a finance adviser. This is a synthetic test response. Reference: https://example.org/profile",
+        "mentioned": true,
+        "identity_verdict": "contradictory",
+        "cited_urls": [
+          "https://example.org/profile"
+        ],
+        "claim_source_support": "unknown",
+        "reviewer_notes": "Synthetic contradiction; no real person or model result."
+      }
+    },
+    {
+      "run_id": "fixture-2",
+      "observed_at": "unknown",
+      "product_entry": "FICTIONAL UNAVAILABLE MODEL",
+      "visible_version": "unknown",
+      "search_mode": "unknown",
+      "search_triggered": "unknown",
+      "target_entity_correctly_identified": "unknown",
+      "language": "unknown",
+      "region": "unknown",
+      "session_conditions": "unknown",
+      "question_group": "unknown",
+      "question": "Recommend a consultant",
+      "target_entity": "Mira Example",
+      "answer_status": "not_run",
+      "answer_text": null,
+      "answer_sha256": null,
+      "mentioned": "unknown",
+      "literal_mention_candidate": "unknown",
+      "identity_verdict": "unknown",
+      "identity_basis": "unknown",
+      "cited_urls": [],
+      "claim_source_support": "unknown",
+      "citation_basis": "supplied review; no source fetch performed",
+      "warnings": [],
+      "raw": {
+        "run_id": "fixture-2",
+        "product_entry": "FICTIONAL UNAVAILABLE MODEL",
+        "question": "Recommend a consultant",
+        "target_entity": "Mira Example",
+        "answer_status": "not_run",
+        "answer_text": null,
+        "mentioned": null,
+        "identity_verdict": null
+      }
+    },
+    {
+      "run_id": "fixture-3",
+      "observed_at": "unknown",
+      "product_entry": "FICTIONAL DEMO MODEL",
+      "visible_version": "unknown",
+      "search_mode": "unknown",
+      "search_triggered": "unknown",
+      "target_entity_correctly_identified": "unknown",
+      "language": "unknown",
+      "region": "unknown",
+      "session_conditions": "unknown",
+      "question_group": "unknown",
+      "question": "unknown",
+      "target_entity": "Mira Example",
+      "answer_status": "answered",
+      "answer_text": "Some consultants publish their work.",
+      "answer_sha256": "3c44adfca27a9a74e8551d9272093f6795f5cf3bc805bccba98f02c53035d6cc",
+      "mentioned": "unknown",
+      "literal_mention_candidate": false,
+      "identity_verdict": "unknown",
+      "identity_basis": "unknown",
+      "cited_urls": [],
+      "claim_source_support": "unknown",
+      "citation_basis": "supplied review; no source fetch performed",
+      "warnings": [],
+      "raw": {
+        "run_id": "fixture-3",
+        "product_entry": "FICTIONAL DEMO MODEL",
+        "target_entity": "Mira Example",
+        "answer_text": "Some consultants publish their work.",
+        "answer_status": "answered",
+        "mentioned": "unknown",
+        "identity_verdict": "unknown",
+        "cited_urls": []
+      }
+    }
+  ],
+  "limits": [
+    "No model calls or source verification",
+    "Literal matches may be ambiguous; absence is not a reviewed non-mention",
+    "Raw answers may contain personal or confidential information; local processing is not public-release permission",
+    "Identity and citation support are supplied reviews, never inferred from a URL or name"
+  ]
+}

@@ -1,0 +1,7 @@
+case,platform,human_reviewer,date,source_fidelity,missing_information,attribution,scope,verdict,notes
+normal,Codex,,,,,,,pending,
+insufficient,Codex,,,,,,,pending,
+attribution,Codex,,,,,,,pending,
+normal,WorkBuddy,,,,,,,pending,agent review-assisted test completed; human sign-off pending
+insufficient,WorkBuddy,,,,,,,pending,agent review-assisted test completed; human sign-off pending
+attribution,WorkBuddy,,,,,,,pending,agent review-assisted test completed; human sign-off pending
