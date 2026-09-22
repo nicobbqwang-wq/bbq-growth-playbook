@@ -2,12 +2,21 @@
 
 [简体中文](installation.zh-CN.md) · [Evidence and limits](../validation/content-repurposing/REVIEW.md)
 
+
+## v0.3.0 upgrade record (2026-09-22)
+
+Use the [new guide](../guides/traceable-content-repurposing.md) and [current test record](../validation/content-repurposing/v0.3.0/REVIEW.md). Older behavior results below describe v0.2.0 only.
+
+In WorkBuddy AI international desktop 5.5.2, the ZIP security scan passed, but importing an existing Skill name was rejected. That attempt is not counted as a successful upgrade. The tested upgrade used Installed Skill → Open in Folder: back up the folder, replace SKILL.md and assets with this release, preserve application metadata, restart the app, then select the Skill from the / menu in a fresh task. All three files matched the repository SHA-256 hashes before testing. Keep private application metadata out of public packages.
+
+Codex tests explicitly read the repository Skill file; automatic discovery was not separately verified. For an existing project installation, back up its same-name folder before replacing Skill files.
+
 ## Codex
 
 Get this repository using Git, or download the release source archive and extract it. With Git:
 
 ```sh
-git clone --branch v0.2.0 --depth 1 https://github.com/nicobbqwang-wq/bbq-growth-playbook.git
+git clone --branch v0.3.0 --depth 1 https://github.com/nicobbqwang-wq/bbq-growth-playbook.git
 cd bbq-growth-playbook
 ```
 

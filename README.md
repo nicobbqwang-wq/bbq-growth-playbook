@@ -4,6 +4,15 @@ Practical resources for making professional expertise understandable and useful:
 
 By [BBQ](https://github.com/nicobbqwang-wq) · [BBQ Growth Lab](https://bbqgrowthlab.com/en/) · [简体中文](README.zh-CN.md)
 
+
+## v0.3.0: from an article to a traceable content package
+
+An optional workflow derived from the website article: claim cards → channel production card → draft → source map and revision impact. Draft-only requests stay concise.
+
+[Quick-start guide](guides/traceable-content-repurposing.md) · [Skill ZIP](https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.3.0/bbq-content-repurposing-v0.3.0.zip) · [Current test record](validation/content-repurposing/v0.3.0/REVIEW.md)
+
+Experimental. Codex and WorkBuddy results are recorded separately; human sign-off is pending and every draft needs review. The v0.2.0 results below are historical. The other two helpers are unchanged.
+
 ## Start with one task
 
 | Task | Start here | Result |

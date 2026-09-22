@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "v0.2.0",
+  "version": "v0.3.0",
   "resources": [
     {
       "id": "bbq-content-repurposing",
-      "version": "v0.2.0",
+      "version": "v0.3.0",
       "title": {
         "zh-cn": "内容分发 Skill",
         "en": "Content repurposing Skill"
       },
       "description": {
-        "zh-cn": "将专业文章改成指定渠道草稿，保留出处与事实范围。",
-        "en": "Adapt an existing article with attribution and factual scope."
+        "zh-cn": "从已有文章生成主张卡、渠道制作卡、草稿与来源映射；保留归属和限制。",
+        "en": "Turn source material into claim cards, a channel brief, a draft and a source map, preserving attribution and limits."
       },
       "usageUrl": {
-        "zh-cn": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/installation.zh-CN.md",
-        "en": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/docs/installation.md"
+        "zh-cn": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.3.0/guides/traceable-content-repurposing.zh-CN.md",
+        "en": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.3.0/guides/traceable-content-repurposing.md"
       },
-      "skillUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/skills/bbq-content-repurposing/SKILL.md",
-      "downloadUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.2.0/bbq-content-repurposing-v0.2.0.zip",
-      "releaseUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/tag/v0.2.0",
+      "skillUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.3.0/skills/bbq-content-repurposing/SKILL.md",
+      "downloadUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.3.0/bbq-content-repurposing-v0.3.0.zip",
+      "releaseUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/tag/v0.3.0",
       "status": {
-        "zh-cn": "Codex三场景通过；WorkBuddy AI三场景可运行，其中两项需明确复核后修订；真人签核待完成。",
-        "en": "Three Codex cases passed. WorkBuddy AI required explicit review and revision in two of three cases; human sign-off pending."
+        "zh-cn": "实验版：Codex 三场景经 AI 复核通过；WorkBuddy 实测仍发现无来源概括，发布前须逐稿复核；真人未签核。",
+        "en": "Experimental: three Codex cases passed agent review; WorkBuddy testing still found unsupported generalization. Review every draft; human sign-off pending."
       },
-      "compatibilityUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.2.0/validation/compatibility.json",
+      "compatibilityUrl": "https://github.com/nicobbqwang-wq/bbq-growth-playbook/blob/v0.3.0/validation/compatibility.json",
       "websiteTargets": [
         "https://bbqgrowthlab.com/zh-cn/articles/content-repurposing-map-seo-llm-visibility/",
         "https://bbqgrowthlab.com/zh-cn/articles/ai-assisted-seo-geo-ppc-workflow-field-notes/",

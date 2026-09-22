@@ -1,13 +1,11 @@
 {
-  "version": "0.3.0",
-  "as_of": "2026-09-22",
+  "version": "0.2.0",
+  "as_of": "2026-09-15",
   "human_review": "pending",
-  "historical_record": "validation/compatibility-v0.2.0.json",
   "rows": [
     {
       "resource": "bbq-content-repurposing",
-      "version": "0.3.0",
-      "environment": "Codex CLI 0.155.0-alpha.9.2",
+      "environment": "Codex CLI 0.154.0-alpha.6.2",
       "mode": "explicit repository SKILL.md read",
       "model": "unknown: default not exposed in captured events",
       "cases": {
@@ -16,24 +14,26 @@
         "attribution": "pass_agent_review"
       },
       "auto_discovery": "not_tested",
-      "evidence": "validation/content-repurposing/v0.3.0/REVIEW.md"
+      "evidence": "validation/content-repurposing/REVIEW.md"
     },
     {
       "resource": "bbq-content-repurposing",
-      "version": "0.3.0",
       "environment": "WorkBuddy AI international desktop 5.5.2",
       "model_selector": "Auto",
       "underlying_model": "unknown",
       "mode": "installed Skill selected via slash picker",
       "first_pass": {
-        "normal": "fail_unsupported_reader_generalization_and_speed_implication",
-        "insufficient": "pass_withheld_draft_requested_source",
-        "attribution": "fail_unsupported_reader_assumption"
+        "normal": "fail_source_fidelity",
+        "insufficient": "pass",
+        "attribution": "fail_fictional_label_and_unsupported_claims"
       },
-      "revision_attribution_subcriteria": "pass",
-      "review_assisted": "not_run",
-      "status": "experimental_requires_editorial_review",
-      "evidence": "validation/content-repurposing/v0.3.0/REVIEW.md"
+      "review_assisted": {
+        "normal": "pass_after_explicit_feedback",
+        "insufficient": "pass_without_revision",
+        "attribution": "pass_after_explicit_feedback"
+      },
+      "status": "review_assisted_only",
+      "evidence": "validation/content-repurposing/workbuddy-v0.2.0/run-evidence.json"
     },
     {
       "resource": "bbq-geo-observer",
@@ -46,9 +46,7 @@
         "rows": 60,
         "raw_and_answer_preserved": true,
         "public_raw_answers": false
-      },
-      "version": "0.2.0",
-      "retested_in_v0.3.0": false
+      }
     },
     {
       "resource": "bbq-multilingual-seo-check",
@@ -57,9 +55,7 @@
       "fixture_tests_passed": 5,
       "live_seed_pages": 4,
       "agent_invocation": "not_tested",
-      "evidence": "validation/seo/live-sample-2026-09-15.json",
-      "version": "0.2.0",
-      "retested_in_v0.3.0": false
+      "evidence": "validation/seo/live-sample-2026-09-15.json"
     }
   ]
 }

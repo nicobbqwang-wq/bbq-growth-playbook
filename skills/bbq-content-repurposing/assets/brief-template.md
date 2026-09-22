@@ -11,3 +11,5 @@
 - Claims or materials that must not be used:
 - Current platform length or format constraints, if known:
 - Requested deliverable: draft, revision, or another explicitly defined output.
+- Optional traceable package: claim cards + one production card per requested channel + draft + editorial source map.
+- Source revision/date and existing claim IDs, if reviewing an update:

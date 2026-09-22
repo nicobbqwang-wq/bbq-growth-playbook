@@ -2,12 +2,21 @@
 
 [English](installation.md) · [真实测试与限制](../validation/content-repurposing/REVIEW.md)
 
+
+## v0.3.0 升级记录（2026-09-22）
+
+本版内容 Skill 的[使用指南](../guides/traceable-content-repurposing.zh-CN.md)和[实测结果](../validation/content-repurposing/v0.3.0/REVIEW.md)以新记录为准；下方旧版行为结果仅代表 v0.2.0。
+
+WorkBuddy AI 国际桌面版 5.5.2 的 ZIP 安全扫描通过，但同名 Skill 导入被拒绝，不能把这次操作算作成功升级。实际升级路径：在已安装 Skill 的菜单选择 Open in Folder，备份文件夹，用本版 ZIP 中的 SKILL.md 和 assets 覆盖对应文件，保留应用自己的元数据文件，然后重启应用并在新任务中从 / 菜单选择 Skill。测试前已核对三个文件的 SHA-256 与发布源文件一致。不要把个人元数据放进公开 ZIP。
+
+Codex 本版测试通过显式读取仓库里的 Skill 文件执行；自动发现未单独验证。已有项目安装时先备份同名目录，再替换该 Skill 的文件。
+
 ## Codex：最短可用方式
 
 下载 v0.2.0 源码包并解压，或运行：
 
 ```sh
-git clone --branch v0.2.0 --depth 1 https://github.com/nicobbqwang-wq/bbq-growth-playbook.git
+git clone --branch v0.3.0 --depth 1 https://github.com/nicobbqwang-wq/bbq-growth-playbook.git
 cd bbq-growth-playbook
 ```
 

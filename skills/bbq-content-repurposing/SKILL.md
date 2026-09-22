@@ -1,9 +1,11 @@
 ---
 name: bbq-content-repurposing
-description: Turn an existing professional article or evidence-backed brief into audience-specific social or newsletter drafts while retaining factual scope and attribution. Use when adapting source content for LinkedIn, WeChat, or another requested channel.
+description: Adapt an existing article or evidence-backed brief into requested channel drafts, preserving attribution and factual scope. Use for content repurposing, or for a traceable content package with claim cards and a channel production card.
 ---
 
 # Content repurposing
+
+Resource version: 0.3.0.
 
 Produce channel-specific drafts from source material. Match the user's requested channels and language; do not generate a channel bundle when they asked for one post.
 
@@ -20,6 +22,16 @@ Resolve the intended reader, channel, output language and desired reader action 
 Identify one central takeaway appropriate to the reader and the supporting steps or examples. Preserve the source's dates, sample limits, attribution, and uncertainty when they affect the claim.
 
 Distinguish author experience, third-party research, and hypothetical examples. A third-party result must not become the user's own achievement. A proposed workflow must not become an accomplished project.
+
+## Traceable content package (when requested)
+
+When the user asks for claim cards, a production card, an evidence map, or a traceable package, read [the card template](assets/traceable-package.md). For a draft-only request, keep this analysis internal and return the requested draft and brief checks; do not add a full card bundle.
+
+Give each material claim a stable ID and a source locator (section, paragraph or supplied record ID). Separate what the source says from whether it has been independently verified. Preserve attribution, date, sample, hypothetical status and material limits. Unsupported claims are excluded from the publishable draft and listed as unresolved; do not invent source IDs, measurements, permissions, owners or review dates.
+
+Build one production card per requested channel: reader/task, selected claim IDs, essential limits, intended action and supplied format constraints. Missing owners, dates or constraints may be marked unspecified without blocking an otherwise useful draft. Link material draft claims back to card IDs in a separate editorial map. Keep IDs and review notes outside the publishable text unless requested, while keeping essential qualifications and hypothetical labels inside the draft itself.
+
+When supplied a revised source, identify changed claim IDs and affected draft passages. Do not describe an update as propagated to files or published channels unless actually performed and verified. For conflicting sources without a resolved authority, show the conflict and avoid selecting a convenient figure as fact.
 
 ## Adapt for the channel
 

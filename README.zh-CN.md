@@ -4,6 +4,15 @@
 
 作者 [BBQ](https://github.com/nicobbqwang-wq) · [BBQ Growth Lab](https://bbqgrowthlab.com/zh-cn/) · [English](README.md)
 
+
+## v0.3.0：从文章到可追溯内容包
+
+基于官网的内容复用文章，新增可选交付：主张卡 → 渠道制作卡 → 草稿 → 来源映射与更新影响清单。只需要草稿时仍可直接改写。
+
+[中文上手指南](guides/traceable-content-repurposing.zh-CN.md) · [下载 Skill ZIP](https://github.com/nicobbqwang-wq/bbq-growth-playbook/releases/download/v0.3.0/bbq-content-repurposing-v0.3.0.zip) · [本版实测记录](validation/content-repurposing/v0.3.0/REVIEW.md)
+
+实验版；Codex 与 WorkBuddy 的结果分开记录。真人未签核，输出仍需逐稿复核。下面 v0.2.0 的结果保留为历史记录，其他两个工具本次未更新。
+
 ## 选择一个任务开始
 
 | 你要完成的事 | 入口 | 得到什么 |
