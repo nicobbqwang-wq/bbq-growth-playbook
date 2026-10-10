@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "path": "source.md",
+      "sha256": "eb8a21314c2a42d3f574d06d5815605c233292ceb02fdcfb692e3115ee1d4baf"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "source_id": "S1",
+      "quote": "每个原子都必须携带出处和边界。数据图表不能离开分母，建议不能离开适用条件，案例不能离开授权，引用不能离开说话人。",
+      "status": "active"
+    },
+    {
+      "id": "C2",
+      "source_id": "S1",
+      "quote": "当主资产更新时，按影响清单处理衍生版本。关键数字、合规说明和产品功能必须同步；历史观点可以保留，但要显示日期。",
+      "status": "active"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "linkedin-en",
+      "path": "linkedin-en.md",
+      "segments": [
+        {
+          "text": "BBQ Growth Lab's content map recommends keeping each reusable unit attached to its source and boundaries.\n\n",
+          "kind": "sourced",
+          "claim_ids": [
+            "C1"
+          ]
+        },
+        {
+          "text": "For a figure, keep the denominator. For advice, keep the conditions. For a case, keep permission. For a quotation, keep the speaker.\n\n",
+          "kind": "sourced",
+          "claim_ids": [
+            "C1"
+          ]
+        },
+        {
+          "text": "The map also recommends checking derived versions when key facts in the core asset change, and displaying dates on historical viewpoints.\n\n",
+          "kind": "sourced",
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "text": "For your next draft, compare its opening, main claim and closing action with the source card. Resolve changed facts before sharing it.\n\n",
+          "kind": "editorial",
+          "review_note": "Editorial action proposal, not a measured outcome."
+        },
+        {
+          "text": "Method: https://bbqgrowthlab.com/zh-cn/articles/content-repurposing-map-seo-llm-visibility/\n\n",
+          "kind": "disclosure",
+          "review_note": "Source attribution, demonstration status or scope disclosure."
+        },
+        {
+          "text": "Demonstration draft; it has not been posted. This checklist does not establish that the source itself is correct.\n",
+          "kind": "disclosure",
+          "review_note": "Source attribution, demonstration status or scope disclosure."
+        }
+      ]
+    },
+    {
+      "id": "newsletter-zh-CN",
+      "path": "newsletter-zh-CN.md",
+      "segments": [
+        {
+          "text": "这份演示邮件用于说明改编稿的更新检查，没有实际发送。\n\n",
+          "kind": "disclosure",
+          "review_note": "Source attribution, demonstration status or scope disclosure."
+        },
+        {
+          "text": "BBQ Growth Lab 的内容地图建议：复用单元要保留出处和边界，数字保留分母，建议保留条件，案例保留授权，引用保留说话人。\n\n",
+          "kind": "sourced",
+          "claim_ids": [
+            "C1"
+          ]
+        },
+        {
+          "text": "主资产更新后，应按影响清单检查衍生版本。关键数字、合规说明和产品功能需要同步；历史观点保留时须显示日期。这是原文的方法建议，不是效果数据。\n\n",
+          "kind": "sourced",
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "text": "你可以把仍在使用的邮件和短帖列成一张清单，标出共享哪条主张；本次先检查同一条主张的所有位置，再决定修改或暂停哪一版。\n\n",
+          "kind": "editorial",
+          "review_note": "Editorial action proposal, not a measured outcome."
+        },
+        {
+          "text": "方法来源：https://bbqgrowthlab.com/zh-cn/articles/content-repurposing-map-seo-llm-visibility/\n\n",
+          "kind": "disclosure",
+          "review_note": "Source attribution, demonstration status or scope disclosure."
+        },
+        {
+          "text": "演示未测量效率、排名、引用或咨询。检查表仍需要编辑判断原始来源是否可靠、结论是否保留限制。\n",
+          "kind": "disclosure",
+          "review_note": "Source attribution, demonstration status or scope disclosure."
+        }
+      ]
+    }
+  ]
+}

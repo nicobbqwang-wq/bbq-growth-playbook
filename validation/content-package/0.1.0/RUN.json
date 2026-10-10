@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-10T08:30:23.178776+00:00",
+  "environment": {
+    "python": "3.9.6",
+    "os": "Darwin",
+    "os_release": "25.6.0"
+  },
+  "test_count": 49,
+  "suite_exit_code": 0,
+  "suite_runtime_seconds": 1.0425,
+  "runtime_scope": "Observed unittest execution only; no authoring/human baseline comparison",
+  "examples": [
+    {
+      "input": "examples/content-package/package.json",
+      "exit_code": 0,
+      "status": "structure_ready",
+      "error_codes": []
+    },
+    {
+      "input": "examples/content-package/missing-opening.json",
+      "exit_code": 2,
+      "status": "blocked",
+      "error_codes": [
+        "DRAFT_COVERAGE_MISMATCH"
+      ]
+    },
+    {
+      "input": "examples/content-package/withdrawn-claim.json",
+      "exit_code": 2,
+      "status": "blocked",
+      "error_codes": [
+        "INACTIVE_CLAIM"
+      ]
+    }
+  ],
+  "inputs_outputs_review": "AI review; no human or target-reader sign-off",
+  "skill_codex_workbuddy_retest": "NOT_RUN",
+  "source_method": "https://bbqgrowthlab.com/zh-cn/articles/content-repurposing-map-seo-llm-visibility/",
+  "checker_sha256": "c132b1942bc0c3a67d074abe4ffd379642e918706ffb40913369df1c3dc362ef"
+}

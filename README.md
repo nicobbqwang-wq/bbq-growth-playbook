@@ -4,6 +4,12 @@ Practical resources for making professional expertise understandable and useful:
 
 By [BBQ](https://github.com/nicobbqwang-wq) · [BBQ Growth Lab](https://bbqgrowthlab.com/en/) · [简体中文](README.zh-CN.md)
 
+## Content package checker 0.1.0
+
+An offline Python helper for checking complete draft mappings, exact source excerpts, snapshot hashes and withdrawn-claim dependencies. Use it before editorial review; it does not approve meaning or publication. [Run the bilingual demonstration](docs/content-package-check.md) · [Code](scripts/check_content_package.py) · [Actual tests](validation/content-package/0.1.0/README.md).
+
+This is a tool maintenance update. The content Skill remains experimental v0.3.0 with the separately recorded Codex and WorkBuddy results below.
+
 
 ## v0.3.0: from an article to a traceable content package
 
