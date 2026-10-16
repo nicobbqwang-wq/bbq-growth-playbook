@@ -84,7 +84,7 @@ class ContentPackageTests(unittest.TestCase):
     def test_valid_two_drafts_report_and_no_input_writes(self):
         before = {str(p): p.read_bytes() for p in self.base.rglob("*") if p.is_file()}
         report = CHECKER.check_package(self.manifest_path)
-        self.assertEqual(report["checker_version"], "0.1.0")
+        self.assertEqual(report["checker_version"], "0.1.1")
         self.assertEqual(report["status"], "structure_ready")
         self.assertEqual(report["errors"], [])
         self.assertEqual(report["drafts"][0]["claim_ids"], ["C1"])
@@ -128,6 +128,35 @@ class ContentPackageTests(unittest.TestCase):
     def test_uppercase_hash_is_accepted(self):
         self.manifest["sources"][0]["sha256"] = self.manifest["sources"][0]["sha256"].upper()
         self.assertEqual(self.check()["status"], "structure_ready")
+
+    def test_whitespace_only_quote_blocks_even_when_present_in_source(self):
+        source = self.base / "sources" / "one.txt"
+        raw = source.read_bytes() + " \t\n\r\n\u00a0\u3000\n".encode("utf-8")
+        source.write_bytes(raw)
+        self.manifest["sources"][0]["sha256"] = hashlib.sha256(raw).hexdigest()
+        for quote in (" ", "\t", "\n", "\r\n", "\u00a0", "\u3000", " \t\n"):
+            with self.subTest(quote=repr(quote)):
+                self.assertIn(quote, raw.decode("utf-8"))
+                self.manifest["claims"][0]["quote"] = quote
+                report = self.check()
+                self.assert_blocked(report, "EMPTY_STRING")
+                self.assertTrue(any(e["location"] == "$.claims[0].quote"
+                                    for e in report["errors"]))
+
+    def test_meaningful_quote_whitespace_remains_exact(self):
+        self.manifest["claims"][0]["quote"] = " visible source record.\n"
+        self.assertEqual(self.check()["status"], "structure_ready")
+        self.manifest["claims"][0]["quote"] = "visible source record. "
+        self.assert_blocked(self.check(), "QUOTE_NOT_FOUND")
+
+    def test_cli_whitespace_quote_returns_blocked_json(self):
+        self.manifest["claims"][0]["quote"] = "\n"
+        self.save()
+        result = subprocess.run([sys.executable, "-B", str(SCRIPT), str(self.manifest_path)],
+                                capture_output=True, text=True, check=False)
+        self.assertEqual(result.returncode, 2)
+        self.assertEqual(result.stderr, "")
+        self.assert_blocked(json.loads(result.stdout), "EMPTY_STRING")
 
     def test_invalid_hashes_are_rejected(self):
         for value in (None, 1, "", "a" * 63, "g" * 64, "a" * 64 + "\n"):

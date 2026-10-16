@@ -1,0 +1,35 @@
+{
+  "checker_version": "0.1.1",
+  "status": "blocked",
+  "semantic_review": "NOT_PERFORMED",
+  "publication_ready": false,
+  "drafts": [
+    {
+      "id": "linkedin-en",
+      "character_length": 723,
+      "mapped_character_length": 723,
+      "segment_count": 6,
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "newsletter-zh-CN",
+      "character_length": 362,
+      "mapped_character_length": 362,
+      "segment_count": 6,
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": "EMPTY_STRING",
+      "location": "$.claims[0].quote",
+      "message": "Expected a nonempty string."
+    }
+  ]
+}

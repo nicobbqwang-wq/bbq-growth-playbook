@@ -14,7 +14,7 @@ import sys
 from pathlib import Path, PureWindowsPath
 
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 KINDS = frozenset(("sourced", "editorial", "synthetic", "disclosure"))
 STATUSES = frozenset(("active", "withdrawn", "unresolved"))
 SHA256 = re.compile(r"[0-9a-fA-F]{64}\Z")
@@ -236,7 +236,7 @@ class _Checker:
                 continue
             identifier = self.identifier(row, location, seen)
             source_id = self.string(row, "source_id", location, trim=True)
-            quote = self.string(row, "quote", location)
+            quote = self.string(row, "quote", location, trim=True)
             status = row.get("status")
             if not isinstance(status, str) or status not in STATUSES:
                 self.error("INVALID_CLAIM_STATUS", location + ".status",

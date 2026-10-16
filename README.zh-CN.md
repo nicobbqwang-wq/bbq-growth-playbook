@@ -4,9 +4,11 @@
 
 作者 [BBQ](https://github.com/nicobbqwang-wq) · [BBQ Growth Lab](https://bbqgrowthlab.com/zh-cn/) · [English](README.md)
 
-## 内容包检查器 0.1.0
+## 内容包检查器 0.1.1
 
-离线 Python 工具检查完整草稿映射、精确来源片段、快照 hash，以及仍引用撤回主张的稿件。它帮助编辑发现结构问题，含义和发布仍需审阅。[运行双语演示](docs/content-package-check.zh-CN.md) · [源码](scripts/check_content_package.py) · [实际测试](validation/content-package/0.1.0/README.md)。
+0.1.1 修复输入漏检：仅含空白的主张引文现在会被阻断；有实际内容的引文仍按原样精确匹配。
+
+离线 Python 工具检查完整草稿映射、精确来源片段、快照 hash，以及仍引用撤回主张的稿件。它帮助编辑发现结构问题，含义和发布仍需审阅。[运行双语演示](docs/content-package-check.zh-CN.md) · [源码](scripts/check_content_package.py) · [实际测试](validation/content-package/0.1.1/README.md)。
 
 本次是工具维护交付；内容 Skill 保持 v0.3.0 实验状态，Codex 与 WorkBuddy 的结果仍按下文分别记录。
 

@@ -21,6 +21,7 @@ From the repository root:
 python3 scripts/check_content_package.py examples/content-package/package.json
 python3 scripts/check_content_package.py examples/content-package/missing-opening.json
 python3 scripts/check_content_package.py examples/content-package/withdrawn-claim.json
+python3 scripts/check_content_package.py examples/content-package/whitespace-quote.json
 ```
 
 1. `package.json` must return exit 0, `structure_ready`, two mapped drafts. `semantic_review=NOT_PERFORMED` and `publication_ready=false` are retained.
@@ -29,3 +30,9 @@ python3 scripts/check_content_package.py examples/content-package/withdrawn-clai
 4. Change a byte in a copied source snapshot while preserving its old hash: the report must block. Restoring the file restores the original check; updating only the hash still requires new semantic review.
 
 Full actual reports are in [the validation directory](../../validation/content-package/0.1.0/). They record what was checked, not semantic approval, Skill compatibility or effectiveness. No platform length limits were asserted or tested.
+
+## 0.1.1 whitespace-only quote regression / 空白引文回归
+
+`whitespace-quote.json` keeps the same source and drafts but sets C1’s quotation to a newline. In 0.1.0 it incorrectly exited 0 because that newline exists in the source. In 0.1.1 it exits 2 with EMPTY_STRING at $.claims[0].quote. This is an intentionally malformed demonstration, not an allegation about a customer package. Meaningful quotes retain their exact whitespace.
+
+Updated run evidence: [0.1.1](../../validation/content-package/0.1.1/README.md). The 0.1.0 evidence above remains historical. The source method excerpts were rechecked on 2026-10-16; neither this input fix nor the examples establish semantic truth, host Skill compatibility or SEO/GEO effects.

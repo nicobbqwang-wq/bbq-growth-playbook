@@ -1,0 +1,67 @@
+{
+  "tool_version": "0.1.1",
+  "executed_at": "2026-10-16T02:08:23.044968+00:00",
+  "environment": {
+    "python": "3.9.6",
+    "implementation": "CPython",
+    "system": "Darwin",
+    "release": "25.6.0"
+  },
+  "suite_exit_code": 0,
+  "test_count": 52,
+  "content_checker_test_count": 41,
+  "unchanged_geo_seo_tests": 11,
+  "suite_seconds": 0.756,
+  "checker_sha256": "67d4411d3d728d252308b422d53bb8a808c9c72d7faf8c39ddda27b3b4651b38",
+  "tests_sha256": "0e422d3fb098b0c994b930f0c6aa36229da79ed4cfe3491013f15281857f8cee",
+  "red_before_fix": {
+    "suite": "content checker only",
+    "test_methods": 41,
+    "failing_subtests_and_methods": 8,
+    "cause": "Whitespace quotes and their CLI invocation incorrectly pass on 0.1.0; all cases contain those exact whitespace bytes."
+  },
+  "regression_methods_added": 3,
+  "whitespace_cases": 7,
+  "meaningful_quote_whitespace_preserved": true,
+  "examples": [
+    {
+      "input": "examples/content-package/package.json",
+      "input_sha256": "8ee7de080638dcdcc5df2f8965f11127868b6d040fe93fccde2fa5767c68b044",
+      "exit_code": 0,
+      "status": "structure_ready",
+      "report": "package.report.json",
+      "report_sha256": "f960ffe04de53c7f34862bb31407f293ca49552f432f35d438a8a9d8acc94c07"
+    },
+    {
+      "input": "examples/content-package/missing-opening.json",
+      "input_sha256": "466af1d13947c3e16530a54dde870b87879ccfec3b1fcb86e1a8acb6febae30f",
+      "exit_code": 2,
+      "status": "blocked",
+      "report": "missing-opening.report.json",
+      "report_sha256": "3ef1d75e32b48fbb8f98325fb7f0d4b6fdc18af3ce414f9c5216f318f4f18154"
+    },
+    {
+      "input": "examples/content-package/withdrawn-claim.json",
+      "input_sha256": "8e5a9665ddd010816c7b1a05b0af1e220dedfd31aeb81ab5499fd5a61285f35d",
+      "exit_code": 2,
+      "status": "blocked",
+      "report": "withdrawn-claim.report.json",
+      "report_sha256": "45d47c0cdeb60e57978e9ffa1d444917dc32bcb3a69b2d78fc936801fa4114ca"
+    },
+    {
+      "input": "examples/content-package/whitespace-quote.json",
+      "input_sha256": "f936540908def9c81d57e663175f0c1bb8c08d38c1b1669bf94b5e5ab48e2e93",
+      "exit_code": 2,
+      "status": "blocked",
+      "report": "whitespace-quote.report.json",
+      "report_sha256": "f4f17752fa605ef6b100015d3dfea26063c46ffd5c960806744813a0021362e7"
+    }
+  ],
+  "semantic_review": "NOT_PERFORMED",
+  "publication_ready": false,
+  "codex_skill_retested": false,
+  "workbuddy_skill_retested": false,
+  "search_and_geo_effect": "UNKNOWN_NOT_MEASURED",
+  "human_signoff": false,
+  "limits": "Other interpreters/OS not exercised; Python whitespace detection is not a semantic or invisible-text detector."
+}
